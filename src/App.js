@@ -1,20 +1,18 @@
 import './App.css';
 import Navbar from './Components/Navbar';
-import Main from './Components/Main';
-import Theory from './Components/Theory';
-import Tasks from './Components/Tasks';
-import Account from './Components/Account';
 import { Route, Routes } from 'react-router-dom';
+import AppRoutes from './AppRoutes';
+
 
 function App() {
   return (
     <div className='container'>
     <Navbar />
       <Routes>
-        <Route path='/' element={<Main />}></Route>
-        <Route path='/theory' element={<Theory />}></Route>
-        <Route path='/tasks' element={<Tasks />}></Route>
-        <Route path='/account' element={<Account />}></Route>
+        {AppRoutes.map((route, page) => {
+          const {element, ...rest} = route;
+          return <Route key={page} {...rest} element={element}/>
+        })}
       </Routes>
     </div>
   );
