@@ -12,13 +12,13 @@ function Navbar() {
                     <Link to="/">Главная</Link>
                 </li>
                 <li>
-                    <Link to="/theory">Теоретический материал</Link>
+                    <Link to="/choose-theory">Теоретический материал</Link>
                 </li>
                 <li>
                     <Link to="/tasks">Задания</Link>
                 </li>
                 <li>
-                    <Link to="/account">Личный кабинет</Link>
+                    <Link to="/authorization">Личный кабинет</Link>
                 </li>
             </ul>
         </div>

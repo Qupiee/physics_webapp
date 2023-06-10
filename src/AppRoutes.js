@@ -4,12 +4,16 @@ import Registration from "./Components/Registration";
 import Main from "./Components/Main";
 import Tasks from "./Components/Tasks";
 import Theory from "./Components/Theory";
+import ChooseTheory from "./Components/ChooseTheory";
 
 const AppRoutes = [
     {
         path: '/',
         element: <Main />
-
+    },
+    {
+        path: '/choose-theory',
+        element: <ChooseTheory />
     },
     {
         path: '/theory',
