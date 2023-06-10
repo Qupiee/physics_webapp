@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./Registration.css";
 
 function Authorization() {
     return (
@@ -13,7 +14,7 @@ function Authorization() {
             <input id="registration-password-repeat" className="registration-input" type="password" placeholder="Подтвердите пароль"></input>
             <button className="registration-btn" type="submit">Зарегистрироваться</button>
             <Link className="registration-btn" to={'/authorization'}>
-                <button className="registration-btn">Войти</button>
+                <button style={{ margin: -8 }} className="registration-btn">Войти</button>
             </Link>
         </div>
     )
