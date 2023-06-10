@@ -1,0 +1,27 @@
+.form-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #4d4d4d;
+}
+
+.form-navbar ul {
+    margin: 30px 30px;
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.form-navbar a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;    
+}
+
+.form-navbar a:hover {
+    color: black;
+}
+
+.form-navbar a:focus {
+    color: black;
+}
