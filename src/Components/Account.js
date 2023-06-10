@@ -1,9 +1,12 @@
 import React from "react";
+import Avatar from "../Images/user.png";
+import "./Account.css";
 
 function Account() {
     return(
-        <div>
-            <h1>Личный кабинет</h1>
+        <div className="form-account">
+            <h1 className="form-greet">Добро пожаловать, {"пользователь"}!</h1>
+            <img src={Avatar} className="form-avatar" alt="avatar"></img>
         </div>
     )
 }
