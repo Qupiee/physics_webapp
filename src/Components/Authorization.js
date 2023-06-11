@@ -1,15 +1,31 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import "./Authorization.css";
-
-/*TODO: "серверная часть". запрос на проверку данных в базе данных(найти, как называется правильно...)*/
+import { useState } from "react";
 
 function Authorization() {
+    const [username, setUsername] = useState('');
+    const [password, setPassword] = useState('');
+    const navigate = useNavigate();
+    const handleUsernameChange = (event) => {
+        setUsername(event.target.value);
+    }
+    const handlePasswordChange = (event) => {
+        setPassword(event.target.value);
+    }
+    const handleSubmit = (event) => {
+        event.preventDefault();
+    }
+
+    function authorizeUser() {
+        return 0;
+    }
+
     return (
-        <div className="form-authorization">
+        <div className="form-authorization" onSubmit={handleSubmit}>
             <h1 className="form-authorization-label">Авторизация</h1>
-            <input className="authorization-input" type="text" placeholder="Имя пользователя"></input>
-            <input className="authorization-input" type="password" placeholder="Пароль"></input>
+            <input className="authorization-input" type="text" placeholder="Имя пользователя" value={username} onChange={handleUsernameChange}></input>
+            <input className="authorization-input" type="password" placeholder="Пароль" value={password} onChange={handlePasswordChange}></input>
             <button className="authorization-btn" type="submit">Войти</button>
             <Link className="authorization-btn" to={'/registration'}>
                 <button style={{ margin: -8 }} className="authorization-btn">Зарегистрироваться</button>

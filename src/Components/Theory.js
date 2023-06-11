@@ -16,8 +16,8 @@ export class Theory extends Component {
     }
 
     render(){
-        return(
-            <div className="form-theory">
+        return(            
+            <div className="form-theory">                
                 <h1 className="label-from-theory">Теоретический материал</h1>
                 <h1>Механическое движение</h1>
                 <ul>
@@ -42,7 +42,7 @@ export class Theory extends Component {
                     <li>
                         <Link to="/">Механические волны</Link>
                     </li>
-                </ul>
+                </ul>                
             </div>
         )
     }
