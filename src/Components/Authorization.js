@@ -2,6 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./Authorization.css";
 
+/*TODO: "серверная часть". запрос на проверку данных в базе данных(найти, как называется правильно...)*/
+
 function Authorization() {
     return (
         <div className="form-authorization">

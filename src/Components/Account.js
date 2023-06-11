@@ -2,6 +2,11 @@ import React from "react";
 import Avatar from "../Images/user.png";
 import "./Account.css";
 
+/*TODO: сделать верстку для личного кабинета. отобразить основные компоненты: "sidebar" - список учеников.
+"форма" отображения ученика и его прогресса. (личный кабинет преподавателя в приоритете).
+(личный кабинет учащегося в процессе).
+*/
+
 function Account() {
     return(
         <div className="form-account">

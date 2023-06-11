@@ -2,6 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./Registration.css";
 
+/*TODO: "серверная часть". запрос на добавление в базу данных.*/
+
 function Authorization() {
     return (
         <div className="form-registration">
