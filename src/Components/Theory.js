@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "./Theory.css";
+import Authorization from "./Registration";
 
 /*TODO: переделать в отдельный компонент, как "navbar". сделать наподобие "sidebar".
 должен "отображаться" всегда при переходе на раздел темы, где будет "список" материала.
@@ -17,7 +18,7 @@ export class Theory extends Component {
 
     render(){
         return(            
-            <div className="form-theory">                
+            <div className="form-theory">
                 <h1 className="label-from-theory">Теоретический материал</h1>
                 <h1>Механическое движение</h1>
                 <ul>
