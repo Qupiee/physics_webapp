@@ -1,0 +1,29 @@
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.pic-center {
+    display: inline;
+    margin-left: 45%;
+}
+
+.text-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#i2 {
+    margin-left: 40%;
+}
+
+#i3 {
+    margin-left: 38%;
+}
+
+#i4 {
+    margin-left: 40%;
+}

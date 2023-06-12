@@ -48,4 +48,3 @@ function VibWavesTabs() {
   }
 
   export default VibWavesTabs;
-  

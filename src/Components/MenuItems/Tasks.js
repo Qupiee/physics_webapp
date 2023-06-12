@@ -1,16 +1,12 @@
 import React from "react";
 import "./Tasks.css";
-
-/*TODO: сделать компонент "sidebar" для перехода между классами (7-11).
-"sidebar" отображается всгда до перехода на новую страницу.
-отобразить в "классе" "grid" с изображениями доступных заданий.
-под изображением гипертекст, ведущий на "задания".
-*/
+import TasksTabs from "../Functional/TasksTabs";
 
 function Tasks() {
     return(
         <div>
-            <h1 className="label-tasks">Задания</h1>
+            <h1 className="label-tasks" style={{display: "flex", alignItems: "center", justifyContent: "center", margin: 20}}>Задания</h1>
+            <TasksTabs />
         </div>
     )
 }
