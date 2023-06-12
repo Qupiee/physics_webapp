@@ -2,8 +2,10 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Registration.css";
 import axios from "axios";
+import { useNavigate } from "react-router-dom";
 
 function Registration() {
+    const navigate = useNavigate();
     const [userlogin, setUserLogin] = useState('');
     const [userpassword, setUserPassword] = useState('');
 
@@ -24,6 +26,7 @@ function Registration() {
         const url = 'http://localhost:51160/api/User/Registration';
         axios.post(url, data).then((result) => {
             alert(result.data)
+            navigate('/authorization')
         }).catch((error) => {
             alert(error);
         })

@@ -2,8 +2,10 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Authorization.css";
 import axios from "axios";
+import { useNavigate } from "react-router-dom";
 
 function Authorization() {
+    const navigate = useNavigate();
     const [userlogin, setUserLogin] = useState('');    
     const [userpassword, setUserPassword] = useState('');
 
@@ -24,11 +26,12 @@ function Authorization() {
         const url = 'http://localhost:51160/api/User/Authorization';
         axios.post(url, data).then((result) => {
             alert(result.data)
+            navigate('/account')
         }).catch((error) => {
             alert(error);
         })
         document.getElementById('a-login').value = ""
-        document.getElementById('a-password').value = ""
+        document.getElementById('a-password').value = ""        
     }
 
     return (
