@@ -1,5 +1,5 @@
 import React from "react";
-import Avatar from "../Images/user.png";
+import Avatar from "../../Images/user.png";
 import "./Account.css";
 
 /*TODO: сделать верстку для личного кабинета. отобразить основные компоненты: "sidebar" - список учеников.

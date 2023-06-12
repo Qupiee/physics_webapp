@@ -1,10 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./ChooseTheory.css";
-import Mech from "../Images/mech1.png";
-import Electric from "../Images/electric1.png";
-import Light from "../Images/light1.png";
-import Waves from "../Images/waves1.png";
+import Mech from "../../Images/mech1.png";
+import Electric from "../../Images/electric1.png";
+import Light from "../../Images/light1.png";
+import Waves from "../../Images/waves1.png";
 
 function ChooseTheory() {
     return(
@@ -13,7 +13,7 @@ function ChooseTheory() {
             <div className="exact-theory">
                 <div>
                     <img src={ Mech } alt="theory-mech" className="picture-choose-theory"></img>
-                    <Link to="/" className="label-theory">Механические явления</Link>
+                    <Link to="/mechanical-phenomena" className="label-theory">Механические явления</Link>
                 </div>
                 <div>
                     <img src={ Electric } alt="theory-electric" className="picture-choose-theory"></img>
@@ -25,7 +25,7 @@ function ChooseTheory() {
                 </div>
                 <div>
                     <img src={ Waves } alt="theory-waves" className="picture-choose-theory"></img>
-                    <Link to="/" className="label-theory">Колебания и волны</Link>
+                    <Link to="/vibrations-waves" className="label-theory">Колебания и волны</Link>
                 </div>
             </div>
         </div>
