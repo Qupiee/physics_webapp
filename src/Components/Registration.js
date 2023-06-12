@@ -16,17 +16,18 @@ function Authorization() {
     }
 
     const handleRegistration = () => {
-
         document.getElementById('userlogin').value = ""
         document.getElementById('userfirstname').value = ""
         document.getElementById('usersecondname').value = ""
         document.getElementById('email').value = ""
         document.getElementById('registration-password').value = ""
         document.getElementById('registration-password-repeat').value = ""
+
         const data = {
             UserLogin: userlogin,
             UserPassword: userpassword
         }
+        
         const url = 'http://localhost:51160/api/User/Registration';
         axios.post(url, data).then((result) => {
             alert(result.data)
