@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "./Theory.css";
-import Authorization from "./Registration";
 
 /*TODO: переделать в отдельный компонент, как "navbar". сделать наподобие "sidebar".
 должен "отображаться" всегда при переходе на раздел темы, где будет "список" материала.
