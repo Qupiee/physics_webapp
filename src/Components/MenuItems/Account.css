@@ -7,7 +7,15 @@
 
 .form-avatar {
     display: flex;    
-    margin-left: 85vw;
+    margin-left: 47%;
     width: 100px;
     height: 100px;
+}
+
+.student-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    font-size: 28px;
 }

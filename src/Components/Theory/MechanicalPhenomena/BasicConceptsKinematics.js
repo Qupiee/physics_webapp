@@ -14,7 +14,7 @@ import "../../Functional/Content.css";
 
 function BasicConceptsKinematics() {
     return(
-        <div className="kinematics">
+        <div className="theory-content">
             <h1 className="">Основные понятия кинематики</h1>
             <em>Механическое движение</em> – изменение положения тела в пространстве относительно других тел с течением времени. 
             Тело, относительно которого рассматривается движение, называется <em>началом отсчета.</em> Покой и движение – понятия относительные. 

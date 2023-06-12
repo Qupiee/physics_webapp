@@ -10,7 +10,7 @@ import "../../Functional/Content.css";
 
 function OscillatoryMotionCharacteristics() {
     return(
-        <div>
+        <div className="theory-content">
             <h1 className="movement">Колебательное движение и его характеристики</h1>
             <img src={pic1} alt="pic1" className="pic-center" id="i5"></img><p className="text-center">Рис. 1</p><br/><br/>
             <em>Механические колебания</em> – это повторяющееся движение, при котором тело многократно проходит одно и то же положение в пространстве. 

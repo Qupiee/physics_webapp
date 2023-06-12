@@ -31,6 +31,7 @@
     justify-content: left;
     text-decoration: none;
     color: black;
+    font-size: 20px;
   }
 
   .task-card {    
@@ -40,7 +41,7 @@
 
   .tabs-link:hover {
     color: #4d4d4d;
-    font-size: 17px;
+    font-size: 21px;
   }
   
   button {
@@ -49,6 +50,7 @@
   }
   .content-tabs {
     flex-grow : 1;
+    font-size: 20px;
   }
   .content {
     background: white;

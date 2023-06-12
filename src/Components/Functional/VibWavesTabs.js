@@ -25,8 +25,8 @@ function VibWavesTabs() {
   
         <div className="content-tabs">
           <div className={toggleState === 1 ? "content  active-content" : "content"}>
-              <Link className="tabs-link" to="/vibrations-waves/oscillatory-motion-characteristics">1. Колебательное движение и его характеристики</Link><br/>
-              <Link className="tabs-link" to="/vibrations-waves/dynamics-oscillatory-motion">2. Динамика колебательного движения</Link><br/>
+              <Link className="tabs-link" to="/vibrations-waves/oscillatory-motion-characteristics">1. Колебательное движение и его характеристики</Link>
+              <Link className="tabs-link" to="/vibrations-waves/dynamics-oscillatory-motion">2. Динамика колебательного движения</Link>
               3. Зависимость периода свободных колебаний от параметров колебательной системы<br/>
               4. Скорость и ускорение при гармонический колебаниях
           </div>

@@ -25,8 +25,8 @@ function MechTabs() {
   
         <div className="content-tabs">
           <div className={toggleState === 1 ? "content  active-content" : "content"}>
-              <Link className="tabs-link" to="/mechanical-phenomena/basic-concepts-kinematics">1. Основные понятия кинематики</Link><br/>
-              <Link className="tabs-link" to="/mechanical-phenomena/constant-motion">2. Равномерное прямолинейное движение</Link><br/>
+              <Link className="tabs-link" to="/mechanical-phenomena/basic-concepts-kinematics">1. Основные понятия кинематики</Link>
+              <Link className="tabs-link" to="/mechanical-phenomena/constant-motion">2. Равномерное прямолинейное движение</Link>
               3. Равноускоренное движение<br/>4. Криволинейное и вращательное движение
           </div>
   

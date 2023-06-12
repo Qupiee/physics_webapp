@@ -19,10 +19,11 @@
     color: black;
     text-decoration: none;
     margin: auto;
+    font-size: 20px;
 }
 
 .label-theory:hover {
-    font-size: 17px;
+    font-size: 21px;
 }
 
 .picture-choose-theory {

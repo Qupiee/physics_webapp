@@ -44,7 +44,7 @@ function TasksTabs() {
             </div>
           </div>
   
-          <div className={toggleState === 2 ? "content  active-content" : "content"}>
+          <div style={{marginTop: 20}} className={toggleState === 2 ? "content  active-content" : "content"}>
               Placeholder
           </div>
   
